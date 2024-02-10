@@ -6,7 +6,7 @@ const answer = document.getElementById("answer")
 
 submit.addEventListener("click", function(){
     if (correct.value === "" || wrong.value === "" || empty.value === "") {
-        alert("لطفا تمام بخش ها را پر کنید!!");
+        alert(" لطفا تمام بخش ها را پر کنید!!(اعداد رو با کیبرد انگلیسی وارد کنید!)");
         return;
     }
 
